@@ -1,0 +1,79 @@
+#pragma once
+
+enum class Characters{
+	NONE,
+	PUNCHIES,
+	BOSS1,
+	BOSS2
+};
+
+enum class Levels{
+	NONE,
+	STATION,
+	FACTORY
+};
+
+enum StateEnum{
+	CLOSING = -1,
+	NO_STATE = 0,
+	LOGO,
+	MENUINICIAL,
+	MENU,
+	MODOHISTORIA,
+	RESTART,
+	START,
+	STARTMULTI,
+	IN_GAME,
+	IN_GAMEMULTI,
+	OPCIONESSALA,
+	CREARSALA,
+	BUSCARSALA,
+	SELECPERSONAJE,
+	SELECPERSONAJE_M,
+	SELECNIVEL,
+	SELECNIVEL_M,
+	SELECNIVELESPERA,
+	OPCIONES,
+	CREDITOS,
+	CONTROLESPC,
+	CONTROLESMANDO,
+	YOU_WIN_S,
+	YOU_LOSE_S,
+	YOU_WIN_M,
+	YOU_LOSE_M,
+	PAUSA,
+	COMIC,
+	COMIC_GAME,
+	VIDEO_CREDITOS,
+	VIDEO_COMIC,
+	COMIC_MENU,
+	SIGUIENTE_NIVEL,
+	VOLVER_SELECT,
+	LOAD_SCREEN,
+};
+
+enum class FistEnum{
+	DIRECT,
+	CROCHET,
+	UPPERCUT
+};
+
+enum class PowerUpEnum{
+	NO_P,
+	DEFENSE,     //DONE -- 
+	DAMAGE,		 //DONE --
+	VELOCITY,    //DONE --
+	HEALTH,      //DONE --
+	STUN,        //--
+	ESTAMINA,    //DONE --
+	DOUBLE_JUMP, //DONE --
+	CANON		 //--
+};
+
+enum class TypeCollisionEnum{
+	NONE,
+	LEFT,
+	RIGHT,
+	ABOVE,
+	AREA
+};
